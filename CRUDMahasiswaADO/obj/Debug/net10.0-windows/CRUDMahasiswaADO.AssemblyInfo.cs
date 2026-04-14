@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDMahasiswaADO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2353f2e5aac7b206e14a19711641f636af12ca3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDMahasiswaADO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDMahasiswaADO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
