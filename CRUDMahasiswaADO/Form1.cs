@@ -13,7 +13,7 @@ namespace CRUDMahasiswaADO
         public FormMahasiswa()
         {
             InitializeComponent();
-            conn = new SqlConnection
+            conn = new SqlConnection (connectionString);
         }
 
         private void ConnectDatabase()
@@ -27,7 +27,7 @@ namespace CRUDMahasiswaADO
 
                 MessageBox.Show("Koneksi berhasil!");
             }
-            catch
+            catch (Exception ex)
             {
                 MessageBox.Show("Koneksi gagal!" + ex.Message);
             }
@@ -50,7 +50,7 @@ namespace CRUDMahasiswaADO
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
-            dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.CellClick += dataGridView1_CellContentClick;
         }
 
         private void txtNIM_TextChanged(object sender, EventArgs e)
